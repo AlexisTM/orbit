@@ -66,7 +66,7 @@ class OrbitConan(ConanFile):
             self.requires("vulkan-headers/1.3.224.1")
             self.requires("vulkan-validationlayers/1.3.224.1")
         self.requires("zlib/1.2.12", override=True)
-        self.requires("openssl/1.1.1s", override=True)
+        self.requires("openssl/1.1.1t", override=True)
 
         if self.options.with_gui:
             self.requires("libssh2/1.10.0")
